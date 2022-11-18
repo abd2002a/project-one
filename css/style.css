@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;700;800&display=swap');
+ 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+} 
+body{
+    background-color: #eee;
+}
+ul{
+    background-color: rgb(156, 152, 152);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul li:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.img{
+    height: 300px;
+    background-image: url(../img/main.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+.content{
+    width:80% ;
+    margin: auto;
+    text-align: center;
+}
+.content h1{
+    color: red;
+
+}
+.content p{
+    font-size: 20px;
+    margin: 15px auto;
+}
+.content img{
+    width: 300px;
+    margin: 5px auto;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.container h2{
+    margin: 20px auto;
+    font-size: 30px;
+    color: red;
+}
+.Features{
+display: flex;
+}
+.Features .features{
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.Features .features:hover{
+    box-shadow: 3px 3px 10px rgb(145, 115, 202);
+    transform: translateX(3px);
+    background-color: rgb(223, 215, 215);
+}
+.features i{
+    font-size: 30px;
+    background-color: red;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+    padding-top: 15px;
+}
+.features h3{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.contact-us{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.contact-form{
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    padding-top: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+.input-form{
+    margin-bottom: 20px;
+}
+.contact-form .input-form input{
+    width:400px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+textarea{
+    width: 400px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button{
+    background-color: rgb(219, 96, 96);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 1px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
